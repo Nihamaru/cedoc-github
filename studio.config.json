@@ -10,7 +10,9 @@
       ],
       [
         "COMPONENTS",
-        []
+        [
+          "button"
+        ]
       ],
       [
         "INFRASTRUCTURE",
@@ -19,5 +21,11 @@
         ]
       ]
     ]
+  },
+  "dependencies": {
+    "autoInstall": false
+  },
+  "doc": {
+    "markdownEngine": "mdjs"
   }
 }
