@@ -631,11 +631,11 @@
     },
     "primary": {
       "blue": {
-        "value": "#1D387C",
+        "value": "#bb2599",
         "type": "color"
       },
       "blue-soft": {
-        "value": "#0086F4",
+        "value": "#f53200",
         "type": "color"
       },
       "grey1": {
