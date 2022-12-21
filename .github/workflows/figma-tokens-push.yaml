@@ -17,4 +17,4 @@ jobs:
         destination_branch: "main"
         pr_title: "Figma Tokens Update"
         pr_body: "Design Tokens were updated in figma! This PR was created to update the code."
-        gitlab_token: ${{ secrets.GL_PAT }}
+        github_token: ${{ secrets.GH_PAT }}
