@@ -4,7 +4,9 @@
     "menu": [
       [
         "TOKENS",
-        []
+        [
+          "tokens"
+        ]
       ],
       [
         "COMPONENTS",
@@ -12,7 +14,9 @@
       ],
       [
         "INFRASTRUCTURE",
-        []
+        [
+          "sd-input"
+        ]
       ]
     ]
   }
