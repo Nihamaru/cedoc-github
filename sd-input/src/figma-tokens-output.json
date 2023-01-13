@@ -16,6 +16,14 @@
       "white": {
         "value": "#FFFFFF",
         "type": "color"
+      },
+      "warning": {
+        "value": "#eb5757",
+        "type": "color"
+      },
+      "backgroundGrey": {
+        "value": "#e0e6ed",
+        "type": "color"
       }
     },
     "spacing": {
@@ -104,7 +112,11 @@
     },
     "fontFamilies": {
       "PTSans": {
-        "value": "PT Sans",
+        "value": "'PT Sans'",
+        "type": "fontFamilies"
+      },
+      "publicSans": {
+        "value": "'Public Sans'",
         "type": "fontFamilies"
       }
     },
@@ -116,6 +128,12 @@
       "w700": {
         "value": "700",
         "type": "fontWeights"
+      }
+    },
+    "bordersRedius": {
+      "br5": {
+        "value": "5px",
+        "type": "borderRadius"
       }
     }
   },
