@@ -7,6 +7,8 @@
   --figma-colors-primary-blue-soft: #0086F4;
   --figma-colors-black: #000000;
   --figma-colors-white: #FFFFFF;
+  --figma-colors-warning: #eb5757;
+  --figma-colors-background-grey: #e0e6ed;
   --figma-spacing-x40: 40;
   --figma-spacing-x20: 20;
   --figma-spacing-x10: 10;
@@ -27,8 +29,10 @@
   --figma-font-sizes-caption: 12;
   --figma-font-sizes-overline: 12;
   --figma-font-sizes-body2: 12;
-  --figma-font-families-pt-sans: PT Sans;
+  --figma-font-families-pt-sans: 'PT Sans';
+  --figma-font-families-public-sans: 'Public Sans';
   --figma-font-weights-w400: 400;
   --figma-font-weights-w700: 700;
+  --figma-borders-redius-br5: 5px;
   --figma-token-set-order-0: global;
 }
