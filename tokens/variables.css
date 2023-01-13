@@ -27,8 +27,10 @@
   --figma-font-sizes-caption: 12;
   --figma-font-sizes-overline: 12;
   --figma-font-sizes-body2: 12;
-  --figma-font-families-pt-sans: PT Sans;
+  --figma-font-families-pt-sans: 'PT Sans';
+  --figma-font-families-public-sans: 'Public Sans';
   --figma-font-weights-w400: 400;
   --figma-font-weights-w700: 700;
+  --figma-borders-redius-br5: 5px;
   --figma-token-set-order-0: global;
 }
