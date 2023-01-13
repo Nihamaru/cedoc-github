@@ -1,31 +1,32 @@
 {
-  "packages": {
-    "dir": "",
-    "menu": [
-      [
-        "TOKENS",
-        [
-          "tokens"
-        ]
-      ],
-      [
-        "COMPONENTS",
-        [
-          "button"
-        ]
-      ],
-      [
-        "INFRASTRUCTURE",
-        [
-          "sd-input"
-        ]
-      ]
+ "packages": {
+  "dir": "",
+  "menu": [
+   [
+    "TOKENS",
+    [
+     "tokens"
     ]
-  },
-  "dependencies": {
-    "autoInstall": false
-  },
-  "doc": {
-    "markdownEngine": "mdjs"
-  }
+   ],
+   [
+    "COMPONENTS",
+    [
+     "button",
+     "document-selector"
+    ]
+   ],
+   [
+    "INFRASTRUCTURE",
+    [
+     "sd-input"
+    ]
+   ]
+  ]
+ },
+ "dependencies": {
+  "autoInstall": false
+ },
+ "doc": {
+  "markdownEngine": "mdjs"
+ }
 }
