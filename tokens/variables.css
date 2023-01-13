@@ -3,12 +3,10 @@
  */
 
 :root {
-  --figma-colors-primary-blue: #1D387C;
-  --figma-colors-primary-blue-soft: #0086F4;
+  --figma-colors-primary-blue: #1d387c;
+  --figma-colors-primary-blue-soft: #0086f4;
   --figma-colors-black: #000000;
-  --figma-colors-white: #FFFFFF;
-  --figma-colors-warning: #eb5757;
-  --figma-colors-background-grey: #e0e6ed;
+  --figma-colors-white: #ffffff;
   --figma-spacing-x40: 40;
   --figma-spacing-x20: 20;
   --figma-spacing-x10: 10;

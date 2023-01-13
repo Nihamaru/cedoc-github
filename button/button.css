@@ -1,45 +1,143 @@
-/*
-  --figma-colors-primary-blue: #1D387C;
-  --figma-colors-primary-blue-soft: #0086F4;
-  --figma-colors-primary-grey1: #DBE2EA;
-  --figma-colors-primary-grey2: #E7F3FF;
-  --figma-colors-primary-grey3: #F1F3F7;
-  --figma-colors-black: #000000;
-  --figma-colors-white: #ffffff;
-*/
-
-.btn {
-  background-color: var(--figma-colors-primary-blue-soft);
-  padding: 0.5rem 1.5rem;
-  color: var(--figma-colors-white);
+.btn-1 {
+  align-items: center;
+  padding: 5px 10px;
   border: none;
-  outline: none;
+  color: var(--figma-colors-white);
+  font-family: var(--figma-font-families-pt-sans);
+  font-style: normal;
+  font-weight: var(--figma-font-weights-w700);
+  font-size: 15px;
   cursor: pointer;
-  border-radius: 0.25rem;
+  min-width: 106px;
+  height: 43px;
+  background: var(--figma-colors-primary-blue);
+  border-radius: 5px;
 }
 
-.btn:hover {
-  background-color: var(--figma-colors-primary-blue);
+.btn-2 {
+  align-items: flex-start;
+  padding: 3px 15px;
+  cursor: pointer;
+  width: 188px;
+  height: 32px;
+  background: var(--figma-colors-primary-blue-soft);
+  border-radius: 5px;
+  border: none;
+  font-family: var(--figma-font-families-pt-sans);
+  font-style: normal;
+  font-weight: var(--figma-font-weights-w400);
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--figma-colors-white);
 }
 
-.btn:focus {
-  outline: 2px solid var(--figma-colors-black);
-  outline-offset: 2px;
+.btn-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px 20px;
+  align-items: center;
+  cursor: pointer;
+  width: 225px;
+  height: 58px;
+  background: #22c55e;
+  border: 1px solid var(--figma-colors-white);
+  border-radius: 5px;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: var(--figma-font-weights-w400);
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--figma-colors-white);
 }
 
-.btn:active {
-  box-shadow: inset 0 0 0px 2px var(--figma-active);
+.btn-3__icon {
+  font-size: 30px;
+  margin-right: 20px;
 }
 
-.btn[outline] {
-  background-color: var(--figma-bg-muted);
-  border: 1px solid var(--figma-bg-default);
+.btn-4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  min-width: 173px;
+  height: 31px;
+  font-family: var(--figma-font-families-pt-sans);
+  font-style: normal;
+  font-weight: var(--figma-font-weights-w700);
+  font-size: 13px;
+  color: var(--figma-colors-white);
+  background: var(--figma-colors-primary-blue);
+  border-radius: 29px;
 }
 
-btn[outline]:hover {
-  background-color: var(--figma-button-primary-background);
+.btn-4__icon {
+  font-size: 11px;
+  margin-right: 10px;
 }
 
-.btn[disabled] {
-  background-color: var(--figma-disabled);
+.btn-5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  min-width: 77px;
+  height: 23px;
+  background: var(--figma-colors-primary-blue);
+  border-radius: 5px;
+  color: var(--figma-colors-white);
+}
+
+.btn-5__icon {
+  font-size: 9px;
+  margin-left: 5px;
+}
+
+.btn-6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: var(--figma-font-families-pt-sans);
+  font-style: normal;
+  font-weight: var(--figma-font-weights-w700);
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--figma-colors-white);
+  min-width: 152px;
+  height: 38px;
+  background: var(--figma-colors-primary-blue);
+  border-radius: 5px;
+}
+
+.btn-7 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 20px;
+  min-width: 183px;
+  height: 40px;
+  background: var(--figma-colors-primary-blue);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-family: var(--figma-font-families-pt-sans);
+  font-style: normal;
+  font-weight: var(--figma-font-weights-w700);
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--figma-colors-white);
+}
+
+.btn-7__icon {
+  font-style: normal;
+  font-size: 20px;
+  margin-right: 10px;
 }
